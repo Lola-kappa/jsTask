@@ -1,4 +1,4 @@
-const Number_user = +prompt('Введите любое число'); // приводим к типу number
-let sqr_Number = Number_user ** 2;
-let cube_Number = Number_user ** 3;
-alert(`Введенное число - ${Number_user}\nКвадрат числа - ${sqr_Number}\nКуб числа - ${ cube_Number }`);
+const Numberuser = +prompt('Введите любое число'); // приводим к типу number
+let sqrNumber = numberUser ** 2;
+let cubeNumber = numberUser ** 3;
+alert(`Введенное число - ${Numberuser}\nКвадрат числа - ${sqrNumber}\nКуб числа - ${ cubeNumber }`);

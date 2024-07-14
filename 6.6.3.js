@@ -1,6 +1,6 @@
-let Number_user = +prompt('Введите любое число'); // приводим к типу number
-let user_ryd = [];
-for (let i = 1; i <= Number_user; i++) {
-    user_ryd.push(i);
+let numberUser = +prompt('Введите любое число'); // приводим к типу number
+let userRyd = [];
+for (let i = 1; i <= numberUser; i++) {
+    userRyd.push(i);
 }
-alert(user_ryd)
+alert(userRyd)

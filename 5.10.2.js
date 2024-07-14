@@ -1,19 +1,19 @@
-const Sale_user = prompt('Введите промокод');
-if (Sale_user == 'СКИДКА') {
+const saleUser = prompt('Введите промокод');
+if (saleUser == 'СКИДКА') {
     alert('Промокод применен');
-} else if (Sale_user == 'скидка') {
+} else if (saleUser == 'скидка') {
     alert('Промокод применен');
-} else if (Sale_user == 'Скидка') {
+} else if (saleUser == 'Скидка') {
     alert('Промокод применен');
-} else if (Sale_user == 'скиДка') {
+} else if (saleUser == 'скиДка') {
     alert('Промокод применен');
-} else if (Sale_user == 'сКидка') {
+} else if (saleUser == 'сКидка') {
     alert('Промокод применен');
-} else if (Sale_user == 'скИдка') {
+} else if (saleUser == 'скИдка') {
     alert('Промокод применен');
-} else if (Sale_user == 'скидКа') {
+} else if (saleUser == 'скидКа') {
     alert('Промокод применен');
-} else if (Sale_user == 'скидкА') {
+} else if (saleUser == 'скидкА') {
     alert('Промокод применен');
 } else {
     alert('Промокод не работает');
