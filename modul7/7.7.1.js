@@ -1,9 +1,7 @@
-const person = {
-    name: 'Лола ',
-    age: '24'
+const oneFunction = (n) => {
+    if (n === 0) {
+        console.log("Операция завершена")
+    } else {
+        oneFunction(n - 1);
+    }
 }
-
-function printInfo() {
-    console.log(`Name: ${this.name}, Age: ${this.age} `)
-}
-printInfo.call(person)
